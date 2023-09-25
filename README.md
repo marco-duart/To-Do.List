@@ -7,7 +7,7 @@ Este é um projeto simples de uma lista de tarefas (to-do list) desenvolvido usa
 
 Antes de começar, certifique-se de ter o Node.js e o npm (ou yarn) instalados na sua máquina.
 
-Temos alguns caminhos para conseguir "rodar", são elas:
+Temos alguns caminhos para conseguir rodar o projeto, são eles:
 1. *API emulada pelo json-server(está na lista de dependências)*
 
 2. *API simulada pelo Render(Pode ser lenta nas requisições)*
@@ -45,8 +45,8 @@ Com npm:
    ```bash
    yarn dev
    ```
-A partir desse momento, a aplicação estará rodando em sua máquina.
-Por padrão, o projeto vem com a API simulada através do Render configurada , mas as alterações feitas nela "resetam" após um tempo.
+A partir desse momento, o projeto estará rodando em sua máquina.
+Por padrão, o projeto vem com a API simulada através do Render configurada, mas as alterações feitas nela "resetam" após um tempo.
 
 ##Utilizando a API do json-server
 
@@ -58,13 +58,14 @@ Por padrão, o projeto vem com a API simulada através do Render configurada , m
    ```bash
    json-server 
    ```
-*O Json-Server vai usar a porta 3000, então inicie primeiramente o ele, e depois inicie a aplicação em outra instância.*
+*O Json-Server vai usar a porta 3000, então inicie primeiramente o ele, e depois inicie o projeto em outra instância.*
 
 **Manualmente, altere o endereço da api na pasta toDoList/src/data/services/config.ts, na linha 3:**
 
 
 **Funcionalidades**
-Adicione novas tarefas.
+Páginas Tasks e New
+Adicione novas tarefas através da pagina New.
 Marque as tarefas como concluídas, e elas vão automaticamente para a coluna de tarefas realizadas.
 Modifique tarefas.
 Exclua tarefas.
