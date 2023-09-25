@@ -1,28 +1,36 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # To-Do.List
+
+Este é um projeto simples de uma lista de tarefas (to-do list) desenvolvido usando React, TypeScript e Vite. Ele permite que você crie, visualize, marque como concluídas e/ou exclua tarefas da sua lista.
+
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter o Node.js e o npm (ou yarn) instalados na sua máquina.
+
+Temos alguns caminhos para conseguir "rodar", são elas:
+
+## Instalação
+
+Siga estas etapas para executar o projeto localmente:
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/marco-duart/To-Do.List
+
+2. **Acesse a pasta do projeto:**
+  cd to-do-list
+
+3. **Já na pasta do projeto, instale as dependências:**
+npm install ou yarn
+
+4. **Uso: Após a instalação, você pode iniciar o servidor de desenvolvimento local com o seguinte comando:**
+Com npm: npm run dev
+Ou com yarn: yarn dev
+
+
+**Funcionalidades**
+Adicione novas tarefas.
+Marque as tarefas como concluídas.
+Exclua tarefas.
+Visualize sua lista de tarefas.
