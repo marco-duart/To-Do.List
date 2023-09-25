@@ -1,0 +1,92 @@
+{
+  "tasks": [
+    {
+      "title": "Fazer compras",
+      "description": "Ir ao supermercado e comprar itens para a semana.",
+      "category": "casa",
+      "priority": "media",
+      "column": "TODO",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Reunião de trabalho",
+      "description": "Reunião de equipe às 10h",
+      "category": "trabalho",
+      "priority": "alta",
+      "column": "TODO"
+    },
+    {
+      "id": 3,
+      "title": "Fazer exercícios",
+      "description": "Correr 5 km no parque",
+      "category": "lazer",
+      "priority": "baixa",
+      "column": "TODO"
+    },
+    {
+      "id": 4,
+      "title": "Limpar a casa",
+      "description": "Limpar todos os cômodos da casa",
+      "category": "casa",
+      "priority": "media",
+      "column": "TODO"
+    },
+    {
+      "id": 5,
+      "title": "Ler livro",
+      "description": "Ler o livro 'A Arte da Guerra'",
+      "category": "lazer",
+      "priority": "baixa",
+      "column": "TODO"
+    },
+    {
+      "id": 6,
+      "title": "Enviar relatório",
+      "description": "Enviar o relatório mensal para o chefe",
+      "category": "trabalho",
+      "priority": "alta",
+      "column": "TODO"
+    },
+    {
+      "id": 7,
+      "title": "Consertar a torneira",
+      "description": "Chamar o encanador para consertar a torneira da cozinha",
+      "category": "casa",
+      "priority": "alta",
+      "column": "TODO"
+    },
+    {
+      "id": 8,
+      "title": "Fazer compras online",
+      "description": "Comprar roupas e acessórios pela internet",
+      "category": "lazer",
+      "priority": "media",
+      "column": "TODO"
+    },
+    {
+      "id": 9,
+      "title": "Responder e-mails",
+      "description": "Responda a todos os e-mails pendentes",
+      "category": "trabalho",
+      "priority": "média",
+      "column": "TODO"
+    },
+    {
+      "title": "Assistir série",
+      "description": "Assistir à nova temporada de 'Stranger Things'",
+      "category": "lazer",
+      "priority": "baixa",
+      "column": "DONE",
+      "id": 10
+    },
+    {
+      "title": "Estudar Typescript",
+      "description": "Estudar a tipagem de funções passadas por props para o projeto final do módulo.",
+      "category": "estudos",
+      "priority": "alta",
+      "column": "DONE",
+      "id": 11
+    }
+  ]
+}
