@@ -12,7 +12,7 @@ Temos alguns caminhos para conseguir "rodar", são elas:
 
 2. *API simulada pelo Render(Pode ser lenta nas requisições)*
 
-3. Utilizar a aplicação 
+3. *Utilizar a aplicação pelo Vercel (duplamente lenta nas requisições), através do link [httto-do-list-gilt-six.vercel.app](https://to-do-list-gilt-six.vercel.app/)*
 
 ## Instalação do projeto
 
@@ -56,8 +56,12 @@ Por padrão, o projeto vem com a API simulada através do Render configurada , m
    ```
 **Já na pasta da API, execute o comando abaixo em uma instância diferente da instância que iniciou a aplicação:**
    ```bash
-   cd api
+   json-server 
    ```
+*O Json-Server vai usar a porta 3000, então inicie primeiramente o ele, e depois inicie a aplicação em outra instância.*
+
+**Manualmente, altere o endereço da api na pasta toDoList/src/data/services/config.ts, na linha 3:**
+
 
 **Funcionalidades**
 Adicione novas tarefas.
@@ -65,3 +69,12 @@ Marque as tarefas como concluídas, e elas vão automaticamente para a coluna de
 Modifique tarefas.
 Exclua tarefas.
 Visualize sua lista de tarefas e os detalhes das tarefas.
+
+##Dependências (Caso não instalem automaticamente)
+   ```bash
+   npm i styled-components react-router-dom axios
+   npm i -g json-server
+   npm install --save react-modal
+   ```
+
+Espero corresponder as espectativas! Ótimo trabalho para a equipe do TI.
