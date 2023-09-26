@@ -27,7 +27,7 @@ Siga estas etapas para executar o projeto localmente:
    ```bash
    cd to-do-list
    ```
-4. **Já na pasta do projeto, instale as dependências:**
+3. **Já na pasta do projeto, instale as dependências:**
    ```bash
    npm install
    ```
@@ -36,7 +36,7 @@ Siga estas etapas para executar o projeto localmente:
    yarn
    ```
 
-5. **Uso: Após a instalação, você pode iniciar o servidor de desenvolvimento local com o seguinte comando:**
+4. **Uso: Após a instalação, você pode iniciar o servidor de desenvolvimento local com o seguinte comando:**
 Com npm:
    ```bash
    npm run dev
