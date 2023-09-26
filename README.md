@@ -31,7 +31,7 @@ Siga estas etapas para executar o projeto localmente:
    ```bash
    npm install
    ```
-Ou pelo yarn
+   Ou pelo yarn
    ```bash
    yarn
    ```
