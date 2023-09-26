@@ -71,7 +71,7 @@ Modifique tarefas.
 Exclua tarefas.
 Visualize sua lista de tarefas e os detalhes das tarefas.
 
-##Dependências (Caso não instalem automaticamente)
+##Dependências (Caso não instalem automaticamente)##
    ```bash
    npm i styled-components react-router-dom axios
    npm i -g json-server
