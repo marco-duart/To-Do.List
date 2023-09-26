@@ -58,7 +58,7 @@ Por padrão, o projeto vem com a API simulada através do Render configurada, ma
    ```bash
    json-server 
    ```
-*O Json-Server vai usar a porta 3000, então inicie primeiramente o ele, e depois inicie o projeto em outra instância.*
+*O Json-Server vai usar a porta 3000, então inicie primeiramente ele, e depois inicie o projeto em uma segunda instância.*
 
 **Manualmente, altere o endereço da api na pasta toDoList/src/data/services/config.ts, na linha 3:**
 
