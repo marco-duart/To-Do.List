@@ -66,10 +66,15 @@ Por padrão, o projeto vem com a API simulada através do Render configurada, ma
 **Funcionalidades**
 
 Páginas Tasks e New
+
 Adicione novas tarefas através da pagina New.
+
 Marque as tarefas como concluídas, e elas vão automaticamente para a coluna de tarefas realizadas.
+
 Modifique tarefas.
+
 Exclua tarefas.
+
 Visualize sua lista de tarefas e os detalhes das tarefas.
 
 
