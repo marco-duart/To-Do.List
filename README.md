@@ -56,7 +56,7 @@ Por padrão, o projeto vem com a API simulada através do Render configurada, ma
    ```
 **Já na pasta da API, execute o comando abaixo em uma instância diferente da instância que iniciou a aplicação:**
    ```bash
-   json-server 
+   json-server --watch db.json
    ```
 *O Json-Server vai usar a porta 3000, então inicie primeiramente ele, e depois inicie o projeto em uma segunda instância.*
 
