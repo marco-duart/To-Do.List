@@ -29,7 +29,3 @@ export const TitleColumnStyle = styled.div`
     font-weight: 700;
     color: #3A72F8;
 `
-
-export const CardColumnStyle = styled.div`
-
-`

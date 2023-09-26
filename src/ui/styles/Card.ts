@@ -162,7 +162,7 @@ export const PriorityCardStyle = styled.div`
   font-size: 16px;
   color: #575757;
 `;
-/* background-color: ${(props) => getPriorityBackgroundColor(props.priority)}; */
+
 export const PriorityInputContainer = styled.div`
   display: flex;
   gap: 10px;
@@ -225,15 +225,3 @@ export const MidIconImg = styled.img`
   bottom: -5px;
   cursor: pointer;
 `;
-
-
-export const getPriorityBackgroundColor = (priority: string) => {
-    switch (priority) {
-      case 'baixa':
-        return '#e6f7ff';
-      case 'media':
-        return '#ffffcc';
-      case 'alta':
-        return '#ffcccc';
-    }
-};

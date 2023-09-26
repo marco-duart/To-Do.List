@@ -7,7 +7,7 @@ import { GetCards, PostCard } from "../../../data/services/card";
 import newIco from "../../../assets/image/new.png";
 
 const NewCard = () => {
-  //VALORES TEMPORÁRIOS PARA TITLE E CONTENT
+  //VALORES TEMPORÁRIOS PARA CARD
   const [cardForm, setCardForm] = useState({
     title: {
       value: "",

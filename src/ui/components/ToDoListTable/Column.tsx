@@ -9,10 +9,8 @@ type Props = {
 
 const Column = ({ column }: Props) => {
   const context = useContext(CardContext);
-
-  //UM IFZINHO PRA "OBRIGAR" O CONTEXTO A "SER" DE UM TIPO
   if (!context) {
-    console.log("Num ta vindo nada");
+    //TRATAR EM CASO DE NULL
     return null;
   }
   const { cards } = context;

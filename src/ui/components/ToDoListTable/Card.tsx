@@ -46,9 +46,8 @@ const Card = ({ card, column }: Props) => {
   const [isEditing, setIsEditing] = useState<boolean>(false); //CONFIRMAR SE ESTÁ EDITANDO
   const context = useContext(CardContext); //CONTEXTO
 
-  //UM IFZINHO PRA "OBRIGAR" O CONTEXTO A "SER" DE UM TIPO
   if (!context) {
-    console.log("Num ta vindo nada");
+    //TRATAR EM CASO DE NULL
     return null;
   }
   const { setCards } = context;
